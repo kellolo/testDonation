@@ -22,7 +22,6 @@ export default {
             type: Array
         },
         selected: {
-            
         },
         val: {
             default: ''
@@ -33,7 +32,7 @@ export default {
     },
     data() {
         return {
-            selectVal: null,
+            selectVal: 0,
             inputVal: null
         }
     },
